@@ -65,7 +65,7 @@ class Sprite(turtle.Turtle):
         else:
             return False
 
-#creating bots that detect proximity ***********************
+#creating circular bots that detect proximity by radius ***********************
 #class bots(Sprite):
 
  #   def __init__(self, spriteshap, color, startx, starty)
