@@ -20,3 +20,6 @@ Situational Awareness:
     a. create a method for distance sensor at every 45 degrees around an object (8 distance measurements)
     b. create a method for a buffer distance that works best (about 20 on all 8 axises)
     c. incorporate the ability to sense when the set buff is reduced
+
+
+    This is a test of how to create a pull request from terminal :D
