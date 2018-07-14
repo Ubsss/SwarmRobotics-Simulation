@@ -222,9 +222,9 @@ game.show_status()
 
 # Create my sprites
 player = Player("triangle", "white", 0, 0)
-# enemy = Enemy("circle", "red", -100, 0)
-#missile = Missile("triangle", "yellow", 0, 0) *******
-# ally = Ally("square", "blue", 100, 0)
+enemy = Enemy("circle", "red", -100, 0)
+missile = Missile("triangle", "yellow", 0, 0)
+ally = Ally("square", "blue", 100, 0)
 
 enemies = []
 for i in range(6):
