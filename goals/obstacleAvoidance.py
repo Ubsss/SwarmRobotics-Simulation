@@ -59,10 +59,10 @@ class Sprite(turtle.Turtle):
             self.rt(numb)
 
     def is_collision(self, other):
-        if (self.xcor() >= (other.xcor() - 20)) and \
-                (self.xcor() <= (other.xcor() + 20)) and \
-                (self.ycor() >= (other.ycor() - 20)) and \
-                (self.ycor() <= (other.ycor() + 20)):
+        if (self.xcor() >= (other.xcor() - 25)) and \
+                (self.xcor() <= (other.xcor() + 25)) and \
+                (self.ycor() >= (other.ycor() - 25)) and \
+                (self.ycor() <= (other.ycor() + 25)):
             return True
         else:
             return False
@@ -96,6 +96,11 @@ class Enemy(Sprite):
         self.fd(self.speed)
 
 
+class Target(Sprite):
+    def __init__(self, spriteshape, color, startx, starty):
+        Sprite.__init__(self, spriteshape, color, startx, starty)
+
+
 class Game():
     def __init__(self):
 
@@ -120,7 +125,7 @@ class Game():
 
     def show_status(self):
         self.pen.undo()
-        msg = "Simulation goal: Bots follow the master or triangle bot"
+        msg = "Simulation goal: Bots avoid all red obstacles in environment"
         self.pen.penup()
         self.pen.goto(-300, 310)
         self.pen.write(msg, font=("Arial", 16, "normal"))
@@ -138,6 +143,14 @@ class BotModes():
         follower.setheading(follower.towards(main_bot))
         follower.forward(4)
 
+    # Create actual function for this!!
+    def follow_the_line(self, bot):
+        pass
+
+    # Create actual function for this!!
+    def obstacle_avoidance(self, bot):
+        pass
+
 
 # Create game object
 game = Game()
@@ -152,7 +165,15 @@ game.draw_border()
 game.show_status()
 
 # Create my sprites
-player = Player("triangle", "red", 0, 0)
+player = Player("triangle", "blue", -230, 230)
+
+# create obstacles on screen
+obstacles = []
+for i in range (10):
+    x = random.randrange(-250, 250, 1)
+    y = random.randrange(-250, 250, 1)
+    obstacle = Target("square", "red", y, x)
+    obstacles.append(obstacle)
 
 # Create 6 enemies in random locations on the screen
 enemies = []
@@ -177,4 +198,15 @@ while True:
     player.move()
 
     for enemy in enemies:
-        mode.follow_the_master(player, enemy)
+        enemy.move()
+
+    for bump in obstacles:
+        x = random.randrange(0, 180, 1)
+        if player.is_collision(bump):
+            player.lt(x)
+
+    for enemy in enemies:
+        for bump in obstacles:
+            x = random.randrange(0, 180, 1)
+            if enemy.is_collision(bump):
+                enemy.lt(x)

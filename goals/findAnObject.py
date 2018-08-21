@@ -1,4 +1,3 @@
-import os
 import random
 import time
 
@@ -122,7 +121,7 @@ class Game():
 
     def show_status(self):
         self.pen.undo()
-        msg = "Bots converge on target once object is found"
+        msg = "Simulation goal: Bots look for and converge on a target once target is found"
         self.pen.penup()
         self.pen.goto(-300, 310)
         self.pen.write(msg, font=("Arial", 16, "normal"))
@@ -130,7 +129,7 @@ class Game():
     def end_simulation(self):
         turtle.bye()
 
-class bot_modes():
+class BotModes():
     def __init__(self):
         self.bot_mode = ""
         self.bot_mode_objective = ""
@@ -151,7 +150,7 @@ class bot_modes():
 game = Game()
 
 # create the bots mode object
-mode = bot_modes()
+mode = BotModes()
 
 # Draw the game border
 game.draw_border()

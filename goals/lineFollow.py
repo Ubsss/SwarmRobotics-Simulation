@@ -1,4 +1,3 @@
-import os
 import random
 import time
 
@@ -7,12 +6,16 @@ import turtle
 
 # Required by MacOSX to show the window
 turtle.fd(0)
+
 # Set the animations speed to the maximum
 turtle.speed(0)
+
 # Change the background color
 turtle.bgcolor("white")
+
 # Change the window title
 turtle.title("Swarm Simulation using Python Turtle Library")
+
 # Hide the default turtle
 turtle.ht()
 
@@ -92,9 +95,11 @@ class Enemy(Sprite):
     def forward(self, distance):
         self.fd(self.speed)
 
+
 class Target(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
         Sprite.__init__(self, spriteshape, color, startx, starty)
+
 
 class Game():
     def __init__(self):
@@ -136,7 +141,7 @@ class Game():
 
     def show_status(self):
         self.pen.undo()
-        msg = "Bots follow a link on screen"
+        msg = "Simulation goal: Bots follow a red line on screen"
         self.pen.penup()
         self.pen.goto(-300, 310)
         self.pen.write(msg, font=("Arial", 16, "normal"))
@@ -145,7 +150,7 @@ class Game():
         turtle.bye()
 
 
-class bot_modes():
+class BotModes():
     def __init__(self):
         self.bot_mode = ""
         self.bot_mode_objective = ""
@@ -158,11 +163,12 @@ class bot_modes():
     def follow_the_line(self, bot):
         pass
 
+
 # Create game object
 game = Game()
 
 # create the bots mode object
-mode = bot_modes()
+mode = BotModes()
 
 # Draw the game border
 game.draw_border()
@@ -189,9 +195,8 @@ point_c.ht()
 point_d = Target("square", "red", -230, -170)
 point_d.ht()
 
-enemies = []
-
 # Create 6 enemies in random locations on the screen
+enemies = []
 for i in range (6):
     x = random.randrange(-290, 290, 1)
     y = random.randrange(-290, 290, 1)
