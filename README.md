@@ -4,10 +4,11 @@ Master Goal:
 Attempting to build a simulation for Swarm robotics using Turtle library in Python
 
 Sub goals:
-1.	Individual robots follow each other 
-2.	All the bots search for an object and converge on it when found
-3.	Bots form a shape
-4. Bots chase a player
+1.	Follow the master (all bots follow one) 
+2.	Find an object (all bots search for an object in a specific area)
+3.	obstacle avoidance (all bots navigate an obstacle course)
+4.  (optional) line follow (all bots follow the line)
+
 
 Setup:
 1.	Create the environment 
@@ -25,3 +26,11 @@ Situational Awareness:
     This is a test of how to create a pull request from terminal :D
     practice makes perfect!!!
     Really mack sure you practice!!!
+
+
+Notes:
+    - link: https://stackoverflow.com/questions/43440399/make-one-python-turtle-chase-another-turtle
+        * how to make a turtle follow another
+
+    - follow the master:
+        * When the main bot hits the enemy, the enemy hides and reappears behind the main bot and follows its direction

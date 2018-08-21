@@ -20,8 +20,10 @@ turtle.title("SpaceWar")
 #turtle.bgpic("starfield.gif") --- commented out background gif---
 # Hide the default turtle
 turtle.ht()
+
 # This saves memory
 turtle.setundobuffer(1)
+
 # This speeds up drawing
 turtle.tracer(0)
 
@@ -65,12 +67,6 @@ class Sprite(turtle.Turtle):
         else:
             return False
 
-#creating circular bots that detect proximity by radius ***********************
-#class bots(Sprite):
-
- #   def __init__(self, spriteshap, color, startx, starty)
-
-#****************************************
 
 class Player(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
@@ -226,6 +222,7 @@ enemy = Enemy("circle", "red", -100, 0)
 missile = Missile("triangle", "yellow", 0, 0)
 ally = Ally("square", "blue", 100, 0)
 
+# keeps the number of objects on the screen constant
 enemies = []
 for i in range(6):
     enemies.append(Enemy("circle", "red", -100, 0))
