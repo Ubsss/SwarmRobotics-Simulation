@@ -266,5 +266,3 @@ while True:
 
     for enemy in enemies:
          mode.follow_the_master(player, enemy)
-
-turtle.mainloop()

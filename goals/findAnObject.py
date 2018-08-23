@@ -230,6 +230,3 @@ while True:
             for lost_bot in enemies:
                 lost_bot.setheading(lost_bot.towards(enemy))
                 player.setheading(player.towards(enemy))
-
-
-turtle.mainloop()
