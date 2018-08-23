@@ -68,7 +68,7 @@ class Player(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
         Sprite.__init__(self, spriteshape, color, startx, starty)
         self.shapesize(stretch_wid=0.6, stretch_len=1.1, outline=None)
-        self.speed = 4
+        self.speed = 2
 
     def turn_left(self):
         self.lt(45)
@@ -86,7 +86,7 @@ class Player(Sprite):
 class Enemy(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
         Sprite.__init__(self, spriteshape, color, startx, starty)
-        self.speed = 4
+        self.speed = 2
 
     def forward(self, distance):
         self.fd(self.speed)
@@ -121,10 +121,10 @@ class Game():
 
     def show_status(self):
         self.pen.undo()
-        msg = "Simulation goal: Bots look for and converge on a target once target is found"
+        msg = "Simulation goal: Bots look for and converge on an object once it is found"
         self.pen.penup()
         self.pen.goto(-300, 310)
-        self.pen.write(msg, font=("Arial", 16, "normal"))
+        self.pen.write(msg, font=("Arial", 16, "bold"))
 
     def end_simulation(self):
         turtle.bye()
@@ -182,6 +182,34 @@ turtle.onkey(player.accelerate, "Up")
 turtle.onkey(player.decelerate, "Down")
 turtle.onkey(game.end_simulation, "q")
 turtle.listen()
+
+# create legend for simulation
+legend = Target("square", "black", 307, -170)
+legend.ht()
+legend.write("Legend: ", font=("Arial", 16, "bold"))
+
+border_legend = turtle.Turtle()
+border_legend.speed(0)
+border_legend.color("black")
+border_legend.pensize(3)
+border_legend.penup()
+border_legend.goto(308, -200)
+border_legend.pendown()
+border_legend.fd(10)
+border_legend.penup()
+border_legend.ht()
+border_legend.pendown()
+border_legend.write("   Environment border", font=("Arial", 16, "bold"))
+
+player_legend = Player("triangle", "blue", 315, -230)
+player_legend.lt(90)
+player_legend.write("    Master bot", font=("Arial", 16, "bold"))
+
+enemy_legend = Enemy("circle", "blue", 315, -260)
+enemy_legend.write("    Slave bot", font=("Arial", 16, "bold"))
+
+obstacle_legend = Target("square", "red", 315, -290)
+obstacle_legend.write("    Object", font=("Arial", 16, "bold"))
 
 # Main game loop
 while True:
