@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5caeb-20fa-414b-b1e5-f3e0ad163197" name="Default" comment="Set the borders for the environment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goals/findAnObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/goals/findAnObject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goals/lineFollow.py" beforeDir="false" afterPath="$PROJECT_DIR$/goals/lineFollow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,85 +16,64 @@
     <session id="1591576965">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="py" value="26" />
+          <entry key="md" value="3" />
+          <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="26" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="65" />
-          <entry key="py" value="6063" />
+          <entry key="md" value="421" />
+          <entry key="py" value="6144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="65" />
-          <entry key="Python" value="6063" />
+          <entry key="Markdown" value="421" />
+          <entry key="Python" value="6144" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goals/obstacleAvoidance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="204" column="23" lean-forward="true" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" selection-start-line="27" selection-end-line="27" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goals/findAnObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1223">
-              <caret line="215" column="19" lean-forward="true" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="198" column="21" lean-forward="true" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goals/lineFollow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4005">
-              <caret line="267" column="46" selection-start-line="267" selection-start-column="46" selection-end-line="267" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1535037842247" expanded="true" signature="2904:2913" ph="..." />
-                <marker date="1535037842247" expanded="true" signature="2904:3280" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goals/followTheMaster.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
             </state>
           </provider>
         </entry>
@@ -131,21 +111,22 @@
         <option value="$PROJECT_DIR$/snake.py" />
         <option value="$PROJECT_DIR$/swarmBots.py" />
         <option value="$PROJECT_DIR$/chaseSim.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lineFollow.py" />
         <option value="$PROJECT_DIR$/followTheMaster.py" />
         <option value="$PROJECT_DIR$/findAnObject.py" />
-        <option value="$PROJECT_DIR$/goals/obstacleAvoidance.py" />
         <option value="$PROJECT_DIR$/goals/followTheMaster.py" />
-        <option value="$PROJECT_DIR$/goals/findAnObject.py" />
         <option value="$PROJECT_DIR$/goals/lineFollow.py" />
+        <option value="$PROJECT_DIR$/goals/obstacleAvoidance.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/goals/findAnObject.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1018" />
-    <option name="height" value="955" />
+    <option name="x" value="676" />
+    <option name="y" value="23" />
+    <option name="width" value="1004" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -155,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findAnObject (1)">
+  <component name="RunManager" selected="Python.obstacleAvoidance">
     <configuration name="findAnObject (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SwarmRobotics-Simulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,10 +289,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.findAnObject (1)" />
-        <item itemvalue="Python.followTheMaster (1)" />
-        <item itemvalue="Python.lineFollow" />
         <item itemvalue="Python.obstacleAvoidance" />
+        <item itemvalue="Python.lineFollow" />
+        <item itemvalue="Python.followTheMaster (1)" />
+        <item itemvalue="Python.findAnObject (1)" />
         <item itemvalue="Python.findAnObject" />
       </list>
     </recent_temporary>
@@ -347,21 +328,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1018" height="955" extended-state="0" />
+    <frame x="676" y="23" width="1004" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23570712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21363173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50651956" side_tool="true" visible="true" weight="0.21436848" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5127162" side_tool="true" weight="0.18527043" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44121072" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49755502" weight="0.32792583" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.71638143" weight="0.32792583" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49348044" visible="true" weight="0.21436848" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48728383" visible="true" weight="0.18527043" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987593" weight="0.32830626" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012407" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -406,21 +387,6 @@
     <entry file="file://$PROJECT_DIR$/snake.py" />
     <entry file="file://$PROJECT_DIR$/chaseSim.py" />
     <entry file="file://$PROJECT_DIR$/swarmBots.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="103" selection-start-line="34" selection-start-column="103" selection-end-line="34" selection-end-column="103" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lineFollow.py" />
     <entry file="file://$PROJECT_DIR$/followTheMaster.py" />
     <entry file="file://$PROJECT_DIR$/findAnObject.py" />
@@ -431,39 +397,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goals/findAnObject.py">
+    <entry file="file://$PROJECT_DIR$/goals/obstacleAvoidance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1223">
-          <caret line="215" column="19" lean-forward="true" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goals/followTheMaster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+        <state relative-caret-position="2565">
+          <caret line="175" column="30" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goals/lineFollow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4005">
-          <caret line="267" column="46" selection-start-line="267" selection-start-column="46" selection-end-line="267" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1535037842247" expanded="true" signature="2904:2913" ph="..." />
-            <marker date="1535037842247" expanded="true" signature="2904:3280" ph="..." />
-          </folding>
+        <state relative-caret-position="3840">
+          <caret line="260" column="50" selection-start-line="260" selection-start-column="50" selection-end-line="260" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goals/obstacleAvoidance.py">
+    <entry file="file://$PROJECT_DIR$/goals/followTheMaster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="204" column="23" lean-forward="true" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" selection-start-line="27" selection-end-line="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="103" selection-start-line="34" selection-start-column="103" selection-end-line="34" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goals/findAnObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="198" column="21" lean-forward="true" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

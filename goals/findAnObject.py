@@ -230,3 +230,5 @@ while True:
             for lost_bot in enemies:
                 lost_bot.setheading(lost_bot.towards(enemy))
                 player.setheading(player.towards(enemy))
+
+# add logic that checks the spawn location to see if an object is alread there
