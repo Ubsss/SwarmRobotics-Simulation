@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82a5caeb-20fa-414b-b1e5-f3e0ad163197" name="Default" comment="Set the borders for the environment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goals/findAnObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/goals/findAnObject.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +14,14 @@
     <session id="1591576965">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goals/findAnObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="198" column="21" lean-forward="true" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
+            <state relative-caret-position="435">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -122,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="676" />
     <option name="y" value="23" />
     <option name="width" value="1004" />
@@ -174,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.obstacleAvoidance">
+  <component name="RunManager" selected="Python.findAnObject (1)">
     <configuration name="findAnObject (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SwarmRobotics-Simulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,10 +287,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findAnObject (1)" />
         <item itemvalue="Python.obstacleAvoidance" />
         <item itemvalue="Python.lineFollow" />
         <item itemvalue="Python.followTheMaster (1)" />
-        <item itemvalue="Python.findAnObject (1)" />
         <item itemvalue="Python.findAnObject" />
       </list>
     </recent_temporary>
@@ -328,21 +326,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="23" width="1004" height="961" extended-state="0" />
-    <editor active="true" />
+    <frame x="842" y="0" width="838" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21363173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25703794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5127162" side_tool="true" weight="0.18527043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51373345" side_tool="true" weight="0.18066743" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44121072" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49755502" weight="0.32792583" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.71638143" weight="0.32792583" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48728383" visible="true" weight="0.18527043" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48626652" visible="true" weight="0.16020408" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987593" weight="0.32830626" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012407" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -435,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goals/findAnObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="198" column="21" lean-forward="true" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
